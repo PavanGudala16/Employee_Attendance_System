@@ -154,7 +154,9 @@ Feel free to fork this repository, open issues, or submit pull requests.
 
 ## License
 
-[Optional: Add a license, e.g., MIT License, Apache 2.0 License. If you don't add one, default GitHub terms apply.]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Udaya Venkata Pavan Gudala
 
 ## Author
 
