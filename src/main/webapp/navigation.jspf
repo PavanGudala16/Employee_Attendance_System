@@ -1,0 +1,57 @@
+
+
+<style>
+    nav {
+        background-color: #333;
+        padding: 15px 0;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Arrange items in a row */
+        justify-content: center; /* Center the navigation items */
+    }
+    nav ul li {
+        margin: 0 15px; /* Spacing between items */
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+        background-color: #555;
+    }
+    .logout-btn {
+        background-color: #dc3545; /* Red color for logout */
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-left: 20px; /* Space from other links */
+    }
+    .logout-btn:hover {
+        background-color: #c82333;
+    }
+</style>
+<nav>
+    <ul>
+        <li><a href="home.jsp">Home</a></li>
+        <li><a href="recordAttendanceForm.jsp">Record Attendance</a></li>
+        <li><a href="ViewAttendanceServlet">View Attendance</a></li>
+       
+        <li>
+            <form action="LogoutServlet" method="post" style="display: inline;">
+                <button type="submit" class="logout-btn">Logout</button>
+            </form>
+        </li>
+    </ul>
+</nav>
