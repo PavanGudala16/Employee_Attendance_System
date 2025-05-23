@@ -160,5 +160,9 @@ Copyright (c) 2025 Udaya Venkata Pavan Gudala
 
 ## Author
 
-Pavan Gudala
-[Optional: Add your GitHub profile link or LinkedIn profile link]
+Udaya Venkata Pavan Gudala
+
+GitHub: PavanGudala16(https://github.com/PavanGudala16)
+LinkedIn: Udaya Venkata Pavan
+Gmail: pavangudala893@gmail.com
+
